@@ -1,12 +1,3 @@
-# 头部描述信息（可选）
-# 在 PCL 的头部一般添加上本文件和作者的描述信息，在 Potatso App 中暂时没有实际作用。
-name = "Potatso Sample Configuration"
-author = "Potatso"
-email = "potatso.com@gmail.com"
-website = "http://manual.potatso.com"
-description = "The sample PCF. This demonstrates the basic grammar of defining a PCL."
-
-# 用户配置（Profile）
 [PROFILE.sample]
 name = "Sample Profile"
 dns = [
@@ -19,8 +10,6 @@ rulesets = [
     "direct",
     "google"
 ]
-
-# 代理（Proxy）
 [PROXY.hk]
 type = "SHADOWSOCKS"
 host = "ss.example.com"
@@ -49,7 +38,6 @@ user = "testuser"
 password = "DO NOT EXPOSE IT TO OTHERS"
 remark = "HK Proxy"
 
-# 规则集（Ruleset）
 [RULESET.direct]
 name = "Direct"
 rules = [
